@@ -1,0 +1,370 @@
+
+#firstbackgroundvideo {
+    width: 1679px;
+
+
+}
+.instagram {
+background: url('instagram.png');
+background-position:center;
+background-repeat:no-repeat;
+}
+
+
+.youtube {
+
+background: url('/common/assets/images/icons/16x16/add.png');
+background-position:center;
+background-repeat:no-repeat;
+}
+
+
+facebook {
+
+
+background: url('/common/assets/images/icons/16x16/add.png');
+background-position:center;
+background-repeat:no-repeat;
+}
+
+
+
+
+
+
+#Youtubepanel {
+    background: white;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Cormorant', serif;
+    font-family: 'Lusitana', serif;
+}
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    width: 1679px;
+
+}
+
+.firstver{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.mainfont {
+    font-family: 'Lusitana', serif;
+}
+
+.overlay2 {
+    position:absolute;
+    top: 225px;;
+    left:0;
+    z-index:1;
+    width: 1679px;
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 300px;
+
+    
+
+
+}
+
+
+.block {
+    background-color: rgb(255, 237, 218); 
+}
+
+.imagine {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 70px;
+    padding-left: 80px;
+}
+
+.dartphoto {
+    position: absolute;
+    right: 100px;
+    width: 800px;
+    
+    /* http://www.corelangs.com/css/box/image-shadow.html*/
+    border:2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+  
+  
+  
+}
+
+.studys {
+    position: absolute;
+    left: 140px;
+    text-shadow: 5px black;
+    width: 300px;
+    font-size: 19px;
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.studys2 {
+    position: absolute;
+    right: 200px;
+    text-shadow: 5px black;
+    width: 350px;
+    font-size: 19px;
+    margin: auto;
+    top: 2100px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.box {
+    width: 500px;
+    background-color: white;
+    border: 3px solid rgb(255, 240, 218);
+    padding: 40px;
+    margin: 20px;
+}
+.box2 {
+    width: 500px;
+    background-color: rgb(255, 237, 218); 
+    
+    padding: 30px;
+    margin: 20px;
+}
+
+.drone2{
+    width: 40;
+}
+
+.fleet {
+    position: absolute;
+    right: 300px;
+    top: 1939px;
+}
+
+
+
+body {
+    overflow-x: hidden;
+    background: white;
+    min-height: 100vh; 
+
+}
+#header {
+    position: absolute;
+    top: 0;
+    Left: 0; 
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
+} 
+#header .logo {
+    color: black;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+#header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #094b65;
+    border-radius: 20px;
+}
+#header ul li a:hover,
+#header ul li a.active {
+    background: #094b95;
+    color: white;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section::before {
+    content: '';
+    position: absolute;
+    transform: translateY(110px);
+    bottom: 0;
+    Left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, rgb(255, 240, 218),transparent);
+    z-index: 1000;
+}
+section img {
+    position: absolute;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 10;
+}
+section #text {
+    position: absolute;
+    color: black;
+    font-size: 15vh;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho', cursive;
+    transform: translateY(-50%)
+}
+section #text span {
+    font-size: 0.20em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+
+}
+
+#btn {
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: black;
+    color: rgb(255, 240, 218);
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translatey(100px);
+
+    
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: rgb(255, 240, 218);
+
+}
+.sec h2 {
+    font-size: 3.5em;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.sec p {
+    font-size: 1em;
+    color: black;
+}
+
+#drone {
+    width: 200px;
+    transform: translatey(500px);
+    transform: translatex(-200px);
+}
+
+
+.paragraph {
+    font-family: 'Libre Bodoni', serif;
+}
+
+.your {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.ser {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+  }
+  
+  #too {
+    width: 50%;
+    border-radius: 5px;
+    background-color: rgb(255, 240, 218);
+    padding: 5px;
+  }
+
+  .mouth {
+      text-align: center;
+      font-family: 'Playfair Display SC', serif;
+        font-size: 70px;
+     padding-left: 80px;
+     
+
+  }
+
+  .btn-center {
+      text-align: center;
+  }
+
+ 
+
+  .touch {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 70px;
+    padding-left: 80px;
+    margin-left: -1400px;
+  }
+
+  .link {
+      color: white;
+      
+  }
+
+
+.footnote {
+    text-align: center;
+}
